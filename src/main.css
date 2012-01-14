@@ -1,0 +1,44 @@
+
+body {
+  padding-left: 100%;
+  padding-right: 100%;
+  -webkit-writing-mode: vertical-rl;
+  background: whiteSmoke;
+  color: #333;
+  font-family: 'HiraMinPro-W3';
+}
+
+.author {
+  margin-top: 5em;
+}
+
+div.main_text {
+  line-height: 2em;
+  letter-spacing: .06em;
+  text-justify: inter-cluster;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(63,110,194,1);
+}
+
+#tatezora_control {
+  width: 5em;
+  -webkit-writing-mode: horizontal-tb;
+  font-size: 13px;
+  font-family: monospace;
+}
+#tatezora_control a {
+  display: block;
+  margin-bottom: 0.5em;
+  background: #333;
+  border-radius: 15px;
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  opacity: 0.8;
+}

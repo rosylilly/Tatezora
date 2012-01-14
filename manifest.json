@@ -1,0 +1,20 @@
+{
+  "name": "Tatezora",
+  "version": "1.0",
+  "description": "青空文庫縦書きビューワー",
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "js": [
+        "src/jquery-1.7.1.min.js",
+        "src/main.js"
+      ],
+      "css": [
+        "src/main.css"
+      ],
+      "matches": [
+        "http://www.aozora.gr.jp/cards/*/files/*"
+      ]
+    }
+  ]
+}
